@@ -20,7 +20,7 @@ Let's say you have a user that wants to enable two-factor authentication, and yo
 
 ### Generating a key
 
-This will generate a secret key of length 32, which will be the secret key for the user.
+This will generate a secret key of length 16, which will be the secret key for the user.
 
 ```go
 import (
